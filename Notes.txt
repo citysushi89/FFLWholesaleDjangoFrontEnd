@@ -1,0 +1,22 @@
+TODO:
+- Move final draft of table to run report page
+
+- copy over other wholesalers and give an option to filter then in / out of the table
+- Basic styling of the rest of the site
+
+
+Web Crawling: still need to update the below to write to csv in the write structure / format
+grice 
+Lipsey's 
+
+
+TODO to make pretty:
+- Make login/logout stuff on the right side of the header
+- Registration page not showing crispy alerts
+
+General Notes:
+Data uploading
+  - Currently done manually, CSV to json conversion
+
+Initial Deployment
+- Finish django tutorial with Corey Shafer once ready to deploy
