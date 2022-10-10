@@ -2,6 +2,7 @@
 .message {
   margin: auto;
   padding: 5px;
+  background-color: #f8f9fa;
 }
 
 .basic-form {
@@ -58,7 +59,7 @@ tr:nth-child(even) {
 
 /* IMported */
 
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 /*!
 * Start Bootstrap - New Age v6.0.6 (https://startbootstrap.com/theme/new-age)
 * Copyright 2013-2022 Start Bootstrap
@@ -143,7 +144,8 @@ body {
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
-  text-align: var(--bs-body-text-align);
+  /* text-align: var(--bs-body-text-align); */
+  text-align: center;
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -658,13 +660,6 @@ progress {
 }
 .blockquote-footer::before {
   content: "— ";
-}
-
-.img-fluid {
-  max-width: 3%;
-  min-width: 3%;
-  max-height: 25%;
-  min-height: 25%;
 }
 
 .img-thumbnail {
@@ -4006,7 +4001,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #2937f0;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -11473,8 +11468,8 @@ section {
 
 section.cta {
   position: relative;
-  padding: 15rem 0;
-  background-image: url("../assets/img/screens-image.jpg");
+  padding: 15rem 0; 
+  background-image: url("img/screens-image.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -11735,7 +11730,18 @@ tr:nth-child(even) {
   position: sticky;
 }
 
-.table-header-title {
-  /* min-width: 25%; */
+
+/* Home Page */
+.img-fluid {
+  /* max-width: 33%;
+  min-width: 33%;
+  max-height: 25%;
+  min-height: 25%; */
 }
 
+/* All Pages */
+
+/* Logout Page */
+.logged-out-notifier {
+  margin-top: 33px;
+}
