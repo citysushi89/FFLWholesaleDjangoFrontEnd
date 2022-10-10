@@ -7,18 +7,22 @@ from django.views.generic import ListView
 
 # Create your views here.
 
-def home (request):
+def index(request):
+    return render(request, 'PPSapp/index.html')
+
+@login_required
+def home(request):
     context = {
         'data': Data.objects.all()
     }
     return render(request, 'PPSapp/home.html', context)
 
 def about(request):
-    return render(request, 'PPSapp/about.html', )
+    return render(request, 'PPSapp/about.html')
 
 @login_required
 def report(request):
-    return render(request, 'PPSapp/report.html', )
+    return render(request, 'PPSapp/report.html')
 
 
 # Paginating and displaying the table
